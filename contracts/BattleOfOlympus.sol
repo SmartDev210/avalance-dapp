@@ -4,7 +4,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 
-contract GameToken is ERC20, Ownable {
+contract BattleOfOlympusToken is ERC20, Ownable {
     
     event PointsTrasfer(address indexed from, address indexed to, uint256 amount);
     event TransferERC20(address indexed from, address indexed to, uint256 amount, uint256 releaseTime);
