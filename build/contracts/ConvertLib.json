@@ -23,7 +23,8 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"conversionRate\",\"type\":\"uint256\"}],\"name\":\"convert\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"convertedAmount\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/ConvertLib.sol\":\"ConvertLib\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ConvertLib.sol\":{\"keccak256\":\"0x802fb99ec5d0aa49c37809e653d97c7d922951eaa400ff3ce81f665e77a38df7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c39ac4ab0ec6424a1fe00f06001482054cacda893e98501db20a44087bc559ae\",\"dweb:/ipfs/QmV5cuS3oyBBGY9SZNobTVnTYwAkWFtBQQdd1fE9zDerLP\"]}},\"version\":1}",
@@ -1568,9 +1569,23 @@
     "name": "solc",
     "version": "0.8.10+commit.fc410830.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "1": {
+      "events": {},
+      "links": {},
+      "address": "0x3B88Df2c744aB8EB40b37121ffCe1301c2854440",
+      "transactionHash": "0x6aacd8fea8c299e62951967606aac36e4c4f02da703a92c7f390f9981c650e81"
+    },
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x37878ab6Ed0e97B799C6e5C74ae0406FFE3557Fc",
+      "transactionHash": "0xdc43ef9e92a5fcee7a6a35029ea0fa0b8528145d5833020e1c07fad751276188"
+    }
+  },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-10T16:25:25.298Z",
+  "updatedAt": "2022-01-10T16:37:14.889Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
