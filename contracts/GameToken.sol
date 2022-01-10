@@ -1,4 +1,4 @@
-pragma solidity ^0.8.10;
+pragma solidity >=0.4.22 <0.9.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -11,7 +11,7 @@ contract GameToken is ERC20, Ownable {
 
     mapping(address => uint256) private _lockTime;
 
-    constructor ( ) public ERC20("GameToken", "GTK") {
+    constructor ( ) public ERC20("Battle of Olympus", "BOO") {
         _mint(msg.sender, 5000000000 * 10 ** decimals());
     }
     
